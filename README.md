@@ -8,9 +8,6 @@ Object_CCallSwift：Objective-C 调用 Swift
 希望对大家有所帮助，谢谢！
 
 #Swift 与 Object-C 交互 （Swift版本为：1.2）
-<p>博文作者：GarveyCalvin</p>
-<p>博文首发：<a href="http://www.cnblogs.com/GarveyCalvin/" target="_blank">http://www.cnblogs.com/GarveyCalvin/</a></p>
-<br><br><br>
 
 <p>这篇文章主要是介绍 Swift 与 Object-C 之间进行交互的代码，主要分为两个部分。一个是 Swift 项目调用 Object-C 的类，另一个是 Object-C 项目调用 Swift 类。过程是很简单，但是对于没接触过的人来说，还是存在一点难度的。</p>
 <p>&nbsp;</p>
@@ -154,7 +151,12 @@ import Cocoa
 <p>有一个办法可以确认你的桥接文件全称，在项目的设置里可以看到：</p>
 <p><img src="http://images0.cnblogs.com/blog2015/684349/201505/162130165013442.png" alt="" width="635" height="192" /></p>
 <p>可以很清晰地看见，正确的写法是&ldquo;工程名-Swift.h&rdquo;，只要把这个填对了，后面的调用就简单多了。</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+#Refreance
+[Swift and Objective-C in the Same Project](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html)
+
+
 <hr />
+<p>博文作者：GarveyCalvin</p>
+<p>博文首发：<a href="http://www.cnblogs.com/GarveyCalvin/" target="_blank">http://www.cnblogs.com/GarveyCalvin/</a></p>
+<br><br><br>
