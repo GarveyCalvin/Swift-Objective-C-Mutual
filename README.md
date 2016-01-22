@@ -7,6 +7,10 @@ Object_CCallSwift：Objective-C 调用 Swift
 
 希望对大家有所帮助，谢谢！
 
+#Update
+
+**2016-01-22**：Swift支持2.1.1
+
 #Swift 与 Object-C 交互 （Swift版本为：1.2）
 
 <p>这篇文章主要是介绍 Swift 与 Object-C 之间进行交互的代码，主要分为两个部分。一个是 Swift 项目调用 Object-C 的类，另一个是 Object-C 项目调用 Swift 类。过程是很简单，但是对于没接触过的人来说，还是存在一点难度的。</p>

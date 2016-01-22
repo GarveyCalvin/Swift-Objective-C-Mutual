@@ -95,6 +95,8 @@
 		88D3C4DE1B04E20B00961511 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = GarveyCalvin;
 				TargetAttributes = {
@@ -251,6 +253,7 @@
 				88D3C4EF1B04E20B00961511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

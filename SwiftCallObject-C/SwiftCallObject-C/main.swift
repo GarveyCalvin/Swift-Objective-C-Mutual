@@ -8,7 +8,7 @@
 
 import Foundation
 
-println("Hello, World!")
+print("Hello, World!")
 
 var person = Person() // 实例化对象
 person.name = "Garvey" // 访问对象属性

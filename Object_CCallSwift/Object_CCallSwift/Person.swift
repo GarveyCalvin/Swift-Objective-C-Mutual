@@ -12,6 +12,6 @@ import Cocoa
     var name: String!
     
     func print() {
-        println("person name is \(name)")
+        Swift.print("person name is \(name)")
     }
 }
