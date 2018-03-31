@@ -149,8 +149,6 @@ import Cocoa
 <p><span style="font-size: 16px;"><strong>常见问题</strong></span></p>
 <p><strong>引入头文件时出错</strong></p>
 <p>网上的&nbsp;Object-C&nbsp;项目调用 Object-C 代码会遇到的问题，现在网上热门的文章，绝大部分都是存在错误的，只要你不够细心，你就很有可能被&ldquo;入网&rdquo;。</p>
-<p>&nbsp;</p>
-<p>例如是这篇文章：http://www.ituring.com.cn/tupubarticle/2687。该文章错误点，#import "工程名-swift.h"：</p>
 <p><img src="http://images0.cnblogs.com/blog2015/684349/201505/162127107205419.png" alt="" width="426" height="196" /></p>
 <p>错在 HelloWorld-swift.h ，其中 swift 的 开头字母 S 必须是大写的！我就是因为这个原因，找了好久都没发现到，也是因为太过于相信网上的文章缘故吧（这里我不是在怪作者）。或许是 Xcode 更新后或是 Swift 语言更新后所作的改动吧，所以才会导致这个原因。</p>
 <p>&nbsp;</p>
